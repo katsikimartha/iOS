@@ -1,0 +1,1 @@
+This application and the Currency Converter application are exercises for an online course.
