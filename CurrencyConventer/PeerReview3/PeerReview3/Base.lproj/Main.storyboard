@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmh-b0-vGj">
+                                <frame key="frameInset" minX="126" minY="311" width="123" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="Convert"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pbi-Hk-C5x"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter an amount in U.S. Dollars" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bla-Hg-9VN">
+                                <frame key="frameInset" minX="25" minY="251" width="334" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Euro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhX-fV-g20">
+                                <frame key="frameInset" minY="363" width="163" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Yen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aM-so-6nf">
+                                <frame key="frameInset" minY="405" width="163" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GBP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZV-Dl-3Qz">
+                                <frame key="frameInset" minY="447" width="163" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grA-Fs-FCp">
+                                <frame key="frameInset" minX="195" minY="363" width="164" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbP-o1-rNi">
+                                <frame key="frameInset" minX="195" minY="405" width="164" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17U-ct-MBn">
+                                <frame key="frameInset" minX="195" minY="447" width="164" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="grA-Fs-FCp" firstAttribute="leading" secondItem="BhX-fV-g20" secondAttribute="trailing" constant="66" id="6yQ-99-Lao"/>
+                            <constraint firstItem="Bla-Hg-9VN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Aat-ni-OAE"/>
+                            <constraint firstItem="PZV-Dl-3Qz" firstAttribute="top" secondItem="qmh-b0-vGj" secondAttribute="bottom" constant="92" id="BEc-mo-UvQ"/>
+                            <constraint firstItem="qmh-b0-vGj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HKH-c7-QHY"/>
+                            <constraint firstItem="qmh-b0-vGj" firstAttribute="centerX" secondItem="BbP-o1-rNi" secondAttribute="centerX" id="HSq-ag-TDD"/>
+                            <constraint firstItem="PZV-Dl-3Qz" firstAttribute="centerY" secondItem="17U-ct-MBn" secondAttribute="centerY" id="PtM-wj-YJm"/>
+                            <constraint firstItem="BhX-fV-g20" firstAttribute="top" secondItem="qmh-b0-vGj" secondAttribute="bottom" constant="8" id="Q2O-Hh-bfJ"/>
+                            <constraint firstItem="qmh-b0-vGj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WAg-eI-hau"/>
+                            <constraint firstItem="qmh-b0-vGj" firstAttribute="centerX" secondItem="grA-Fs-FCp" secondAttribute="centerX" id="Zjf-GR-Swh"/>
+                            <constraint firstItem="qmh-b0-vGj" firstAttribute="centerX" secondItem="17U-ct-MBn" secondAttribute="centerX" id="hNP-HN-3zY"/>
+                            <constraint firstItem="BhX-fV-g20" firstAttribute="centerY" secondItem="grA-Fs-FCp" secondAttribute="centerY" id="hb4-5r-Q5r"/>
+                            <constraint firstItem="17U-ct-MBn" firstAttribute="leading" secondItem="PZV-Dl-3Qz" secondAttribute="trailing" constant="66" id="iEq-ek-tiZ"/>
+                            <constraint firstItem="BbP-o1-rNi" firstAttribute="leading" secondItem="6aM-so-6nf" secondAttribute="trailing" constant="66" id="jzb-bo-Iux"/>
+                            <constraint firstItem="6aM-so-6nf" firstAttribute="top" secondItem="qmh-b0-vGj" secondAttribute="bottom" constant="50" id="lWr-pY-6RJ"/>
+                            <constraint firstItem="qmh-b0-vGj" firstAttribute="top" secondItem="Bla-Hg-9VN" secondAttribute="bottom" constant="30" id="tdo-2c-GcW"/>
+                            <constraint firstItem="6aM-so-6nf" firstAttribute="centerY" secondItem="BbP-o1-rNi" secondAttribute="centerY" id="xZk-Pv-PwV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="convertButton" destination="qmh-b0-vGj" id="gf0-cV-Q9M"/>
+                        <outlet property="currencyA" destination="grA-Fs-FCp" id="VT8-Dt-D50"/>
+                        <outlet property="currencyB" destination="BbP-o1-rNi" id="eu7-9s-Ju7"/>
+                        <outlet property="currencyC" destination="17U-ct-MBn" id="k7n-Oc-HGF"/>
+                        <outlet property="inputField" destination="Bla-Hg-9VN" id="4Pf-NB-xug"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-61.5" y="137.5"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
